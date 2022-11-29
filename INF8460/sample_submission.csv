@@ -4,7 +4,7 @@ id,translation
 2,select distinct ?uri where { ?uri dbo:riverMouth dbr:Dead_Sea . ?uri rdf:type dbo:River }
 3,select distinct ?uri where { dbr:John_Kotelawala dbp:allegiance ?uri }
 4,select distinct count ( ?uri ) where { ?x dbo:breeder dbr:Jacques_Van't_Hart . ?x dbp:race ?uri . }
-5,"select distinct ?uri where { dbr:Al_Gore_presidential_campaign,_2000 dbo:incumbent ?uri . dbr:Ann_Lewis dbo:president uri }"
+5,"select distinct ?uri where { dbr:Al_Gore_presidential_campaign,_2000 dbo:incumbent ?uri . dbr:Ann_Lewis dbo:president ?uri }"
 6,select distinct ?uri where { dbr:Tom_Perriello dbo:region ?uri }
 7,select distinct ?uri where { ?x dbp:related dbr:Subaru_Outback . ?x dbo:layout ?uri . ?x rdf:type dbo:Automobile }
 8,select distinct ?uri where { ?x dbp:operator dbr:Starwood_Hotels_and_Resorts_Worldwide . ?x dbp:address ?uri . }
@@ -15,7 +15,7 @@ id,translation
 13,select distinct ?uri where { dbr:Henry_Cluney dbp:origin ?uri }
 14,select distinct ?uri where { ?x dbp:placeOfBirth dbr:New_Orleans . ?x dbp:knownFor ?uri . ?x rdf:type dbo:Person }
 15,select distinct ?uri where { ?x dbp:region dbr:Capital_region . ?x dbo:sport ?uri . ?x rdf:type dbo:School }
-16,select distinct ?uri where { dbr:Batch_Monitor dbp:developer ?uri . dbr:Riddim_Ribbon_feat._The_Black_Eyed_Peas dbp:distributor uri }
+16,select distinct ?uri where { dbr:Batch_Monitor dbp:developer ?uri . dbr:Riddim_Ribbon_feat._The_Black_Eyed_Peas dbp:distributor ?uri }
 17,select distinct ?uri where { dbr:Xynisteri dbo:origin ?uri . dbr:Mavro dbo:origin ?uri . }
 18,select distinct ?uri where { ?x dbo:battle dbr:Battle_of_France . ?x dbo:award ?uri . ?x rdf:type dbo:Person }
 19,select distinct ?uri where { dbr:Charles_Edward_Magoon dbp:restingplace ?uri }
